@@ -1,0 +1,32 @@
+{
+  "name": "most-used-color",
+  "version": "0.0.0",
+  "description": "Find the most used pixel color in an image.",
+  "license": "MIT",
+  "repository": "MrChristofferson/most-used-color",
+  "author": {
+    "name": "Chris Vandenberg",
+    "email": "chrisvan0848@gmail.com",
+    "url": "projects.typeofchris.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}

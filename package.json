@@ -21,7 +21,9 @@
   "keywords": [
     ""
   ],
-  "dependencies": {},
+  "dependencies": {
+    "pixel-getter": "0.0.5"
+  },
   "devDependencies": {
     "ava": "^0.15.2",
     "xo": "^0.16.0"

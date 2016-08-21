@@ -1,6 +1,6 @@
 {
   "name": "most-used-color",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Find the most used pixel color in an image.",
   "license": "MIT",
   "repository": "MrChristofferson/most-used-color",

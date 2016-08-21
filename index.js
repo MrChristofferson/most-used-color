@@ -7,15 +7,12 @@ module.exports = (input, opts) => {
 		throw new TypeError(`Expected a string, got ${typeof input}`);
 	}
 
-	var otherColors  = new Array();
-
 	this.getAllPixels = input => {
 	    return new Promise((resolve, reject) => {
 	        getter.get(`${input}`, (err, pixels) => {
 	            if (err) {
 	                reject(err);
 	            }
-	            // TODO: Change code so that it resolves with a single array instead of [[]]
 	            resolve(pixels[0]);
 	        });
 	    });
@@ -24,7 +21,6 @@ module.exports = (input, opts) => {
 	this.getPixelData = pixels => {
 	    var colors = new Array();
 
-	    // Iterate
 	    for (var i = 0; i < pixels.length; i++) {
 
 	        var p = pixels[i];

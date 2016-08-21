@@ -1,4 +1,4 @@
-# most-used-color [![Build Status](https://travis-ci.org/MrChristofferson/most-used-color.svg?branch=master)](https://travis-ci.org/MrChristofferson/most-used-color)
+# most-used-color
 
 > Find the most used pixel color in an image.
 
@@ -13,32 +13,27 @@ $ npm install --save most-used-color
 ## Usage
 
 ```js
-const mostUsedColor = require('most-used-color');
+var mostUsedColor = require('most-used-color')
 
-mostUsedColor('unicorns');
-//=> 'unicorns & rainbows'
+mostUsedColor('./puppy.png').then(color => {
+
+	console.log(color)
+
+})
 ```
 
 
 ## API
 
-### mostUsedColor(input, [options])
+### mostUsedColor(input)
 
 #### input
 
 Type: `string`
 
-Lorem ipsum.
+Path to image.
 
 #### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
 
 ## License
 

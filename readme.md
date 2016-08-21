@@ -33,8 +33,6 @@ Type: `string`
 
 Path to image.
 
-#### options
-
 ## License
 
-MIT © [Chris Vandenberg](http://projects.typeofchris.com)
+MIT © [Chris Vandenberg](https://github.com/MrChristofferson) [Oskenso Kashi](https://github.com/Oskenso)

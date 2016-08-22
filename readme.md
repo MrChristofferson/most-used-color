@@ -35,4 +35,4 @@ Path to image.
 
 ## License
 
-MIT © [Chris Vandenberg](https://github.com/MrChristofferson) [Oskenso Kashi](https://github.com/Oskenso)
+MIT © [Chris Vandenberg](https://github.com/MrChristofferson) & [Oskenso Kashi](https://github.com/Oskenso)

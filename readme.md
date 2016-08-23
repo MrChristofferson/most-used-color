@@ -13,13 +13,13 @@ $ npm install --save most-used-color
 ## Usage
 
 ```js
-var mostUsedColor = require('most-used-color')
+var mostUsedColor = require('most-used-color');
 
 mostUsedColor('./puppy.png').then(color => {
 
-	console.log(color)
+	console.log(color);
 
-})
+});
 ```
 
 
